@@ -125,5 +125,3 @@ The models can be used to:
 - Develop separate models for different loan segments
 
 
-
-![image](https://github.com/user-attachments/assets/2d03c1cd-20ca-487b-b11f-567256c858dd)
