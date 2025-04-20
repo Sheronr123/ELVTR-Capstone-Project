@@ -11,7 +11,7 @@ This project develops machine learning models to predict loan default risk using
 
 ## 📂 Dataset
 
-The dataset contains approximately 100,000 loan records with 150+ features including:
+The dataset contains approximately 100,000 loan records with 140+ features including:
 
 - **Borrower information**: Credit score, income, employment history
 - **Loan characteristics**: Amount, term, interest rate
@@ -51,16 +51,16 @@ The dataset contains approximately 100,000 loan records with 150+ features inclu
 #### Baseline Model: Multinomial Logistic Regression
 **Strengths**: Interpretable coefficients, fast training  
 **Results**:
-- Accuracy: 82.07%
-- F1-Macro: 0.56
+- Accuracy ≈ 84.07%
+- F1-Macro ≈ 0.74
 - Good performance on majority classes but struggled with rare cases
 
 #### Challenger Model: Random Forest Classifier
 **Strengths**: Handles non-linear relationships, better with imbalance  
 **Results**:
-- Accuracy: 92.75% (+10.68% over baseline)
-- F1-Macro: 0.65 (+16%)
-- Improved detection of high-risk loans (F1=0.81 vs 0.74)
+- Accuracy ≈ 94% (≈10.68% + over baseline)
+- F1-Macro ≈ 0.84 (+15%)
+- Improved detection of high-risk loans (F1=0.84 vs 0.74)
 
 ## 🔍 Key Findings
 
